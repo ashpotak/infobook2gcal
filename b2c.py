@@ -71,7 +71,7 @@ for bestie in besties:
         },
       }
       #print(event)
-      event = service.events().insert(calendarId='nmmvejgv1h6r9mef3mfh8uc8ik@group.calendar.google.com', body=event).execute()
+      event = service.events().insert(calendarId='YOURID', body=event).execute()
       print('Event created: %s' % (event.get('htmlLink')))
       
   
